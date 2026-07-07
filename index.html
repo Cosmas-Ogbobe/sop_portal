@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dana Group SOP Portal</title>
+    <link rel='stylesheet' href='assets/css/style.css'>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<!---------------- SIDEBAR ---------------->
+
+<aside class="sidebar">
+
+<div class="logo">
+
+<i class="fa-solid fa-book-open-reader"></i>
+
+<div>
+
+<h2>Dana Group</h2>
+
+<p>SOP Portal</p>
+
+</div>
+
+</div>
+
+<nav>
+
+<p class="menu-title">MAIN</p>
+
+<a class="active" href="#">
+<i class="fa-solid fa-chart-line"></i>
+Dashboard
+</a>
+
+<a href="#">
+<i class="fa-solid fa-file-lines"></i>
+All SOPs
+</a>
+
+<a href="#">
+<i class="fa-solid fa-plus"></i>
+Create SOP
+</a>
+
+<a href="#">
+<i class="fa-solid fa-pen"></i>
+Draft SOPs
+</a>
+
+<a href="#">
+<i class="fa-solid fa-clock"></i>
+Pending Review
+</a>
+
+<a href="#">
+<i class="fa-solid fa-circle-check"></i>
+Published SOPs
+</a>
+
+<a href="#">
+<i class="fa-solid fa-box-archive"></i>
+Archived
+</a>
+
+<a href="#">
+<i class="fa-solid fa-triangle-exclamation"></i>
+Expired SOPs
+</a>
+
+<p class="menu-title">
+
+MANAGEMENT
+
+</p>
+
+<a href="#">
+
+<i class="fa-solid fa-user-check"></i>
+
+Approvals
+
+</a>
+
+<a href="#">
+
+<i class="fa-solid fa-building"></i>
+
+Departments
+
+</a>
+
+<a href="#">
+
+<i class="fa-solid fa-users"></i>
+
+Employees
+
+</a>
+
+<a href="#">
+
+<i class="fa-solid fa-graduation-cap"></i>
+
+Training
+
+</a>
+
+<a href="#">
+
+<i class="fa-solid fa-layer-group"></i>
+
+Templates
+
+</a>
+
+<a href="#">
+
+<i class="fa-solid fa-shield-halved"></i>
+
+Compliance
+
+</a>
+
+<a href="#">
+
+<i class="fa-solid fa-chart-column"></i>
+
+Reports
+
+</a>
+
+<a href="#">
+
+<i class="fa-solid fa-clock-rotate-left"></i>
+
+Audit Logs
+
+</a>
+
+<a href="#">
+
+<i class="fa-solid fa-bell"></i>
+
+Notifications
+
+</a>
+
+<a href="#">
+
+<i class="fa-solid fa-gear"></i>
+
+Settings
+
+</a>
+
+</nav>
+
+</aside>
+
+<!---------------- MAIN ---------------->
+
+<main class="content">
+
+<header>
+
+<div>
+
+<h1>Dashboard</h1>
+
+<p>Welcome back, Administrator</p>
+
+</div>
+
+<div class="header-right">
+
+<div class="search">
+
+<i class="fa fa-search"></i>
+
+<input type="text" placeholder="Search SOP...">
+
+</div>
+
+<button>
+
+<i class="fa-solid fa-plus"></i>
+
+New SOP
+
+</button>
+
+<div class="profile">
+
+<img src="https://i.pravatar.cc/100">
+
+<div>
+
+<h4>Administrator</h4>
+
+<p>Dana Group</p>
+
+</div>
+
+</div>
+
+</div>
+
+</header>
+
+<!------------ CARDS ------------>
+
+<section class="cards">
+
+<div class="card">
+
+<h3>258</h3>
+
+<p>Total SOPs</p>
+
+</div>
+
+<div class="card">
+
+<h3>190</h3>
+
+<p>Published</p>
+
+</div>
+
+<div class="card">
+
+<h3>18</h3>
+
+<p>Pending Review</p>
+
+</div>
+
+<div class="card">
+
+<h3>24</h3>
+
+<p>Draft SOPs</p>
+
+</div>
+
+<div class="card">
+
+<h3>14</h3>
+
+<p>Expired SOPs</p>
+
+</div>
+
+<div class="card">
+
+<h3>96%</h3>
+
+<p>Compliance</p>
+
+</div>
+
+</section>
+
+<!------------ GRID ------------>
+
+<section class="dashboard-grid">
+
+<div class="left">
+
+<div class="panel">
+
+<div class="panel-header">
+
+<h2>Recent SOP Activities</h2>
+
+<a href="#">View All</a>
+
+</div>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>SOP</th>
+
+<th>Department</th>
+
+<th>Status</th>
+
+<th>Version</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Employee Onboarding</td>
+
+<td>HR</td>
+
+<td><span class="published">Published</span></td>
+
+<td>4.0</td>
+
+</tr>
+
+<tr>
+
+<td>Fire Safety Procedure</td>
+
+<td>HSE</td>
+
+<td><span class="pending">Review</span></td>
+
+<td>2.5</td>
+
+</tr>
+
+<tr>
+
+<td>Procurement Process</td>
+
+<td>Procurement</td>
+
+<td><span class="draft">Draft</span></td>
+
+<td>1.8</td>
+
+</tr>
+
+<tr>
+
+<td>Warehouse Operations</td>
+
+<td>Operations</td>
+
+<td><span class="published">Published</span></td>
+
+<td>6.0</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+</div>
+
+<div class="right">
+
+<div class="panel">
+
+<h2>Upcoming Reviews</h2>
+
+<div class="review">
+
+<h4>Fire Safety SOP</h4>
+
+<span>2 Days</span>
+
+</div>
+
+<div class="review">
+
+<h4>Payroll Procedure</h4>
+
+<span>5 Days</span>
+
+</div>
+
+<div class="review">
+
+<h4>Quality Control SOP</h4>
+
+<span>8 Days</span>
+
+</div>
+
+<div class="review">
+
+<h4>Warehouse SOP</h4>
+
+<span>12 Days</span>
+
+</div>
+
+</div>
+
+<div class="panel">
+
+<h2>Department Compliance</h2>
+
+<div class="progress-item">
+
+<span>HR</span>
+
+<div class="progress"><div style="width:95%"></div></div>
+
+</div>
+
+<div class="progress-item">
+
+<span>Finance</span>
+
+<div class="progress"><div style="width:88%"></div></div>
+
+</div>
+
+<div class="progress-item">
+
+<span>Operations</span>
+
+<div class="progress"><div style="width:92%"></div></div>
+
+</div>
+
+<div class="progress-item">
+
+<span>IT</span>
+
+<div class="progress"><div style="width:98%"></div></div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
